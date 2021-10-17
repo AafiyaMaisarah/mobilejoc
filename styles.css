@@ -1,0 +1,228 @@
+  * {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+
+}
+body{
+    font-family: 'Karla', sans-serif;
+}
+.h1{
+    color:#39DAC7;
+    margin:5px;
+    padding:10px;
+    font-weight: bold;
+    }
+.p1{
+    margin:0px;
+    padding:5px;
+    color:#91F02C;
+    font-weight: bold;
+    position: relative;
+    left: 5px;
+}
+    .p2{
+    font-size:1rem;
+    margin:0px;
+    padding:5px;
+    position:relative;
+    top:-10px;
+    left:5px;
+}
+.p3{
+    
+    font-size:20px;
+   
+ }
+ .bold{
+    font-size: 15px;
+    font-weight: lighter;
+    opacity: 1;
+    margin:5px 5px;
+    padding:10px;
+}
+.button{
+    font-size: 20px;
+    width:20vw;
+    height: 10vh;
+}
+    
+.p2{
+        
+        color:rgb(141, 137, 137);
+        margin:5px;
+         padding:5px;
+         /* display: inline-block; */
+    }
+.change{
+        background-color:rgb(88,176,176);
+        color: white;
+        font-weight:normal;
+        margin:0px;
+        padding:20px;
+       height:35vh;
+      } 
+  
+.two{
+        margin:5px 10px;
+        font-size:2rem;
+    }
+.bold{
+    margin:5px;
+    padding:5px;
+   }
+.button{
+    background-color:#91F02C;
+    color:white;
+   border-radius: 5%;
+   border: 0;
+   height:30px;
+   width:60vw;
+  float:left;
+   text-align: center;
+} 
+.box{
+    background-color:rgb(106, 201, 201);
+        font-weight:normal;
+        margin:0px;
+        padding:20px;
+        height:35vh;
+    }
+.p3{
+    margin:5px 10px;
+    padding:5px;
+    font-weight: bold;
+}
+.h2{
+    color:white;
+    margin:5px;
+    padding:5px;
+}
+.tut{
+    opacity: 0.5;
+    color: white;
+    text-align:justify;
+}
+@media screen and (min-width:600px){
+.h1{
+    font-size: 1.5rem;
+}
+.h2{
+    font-size: 6rem;
+}
+.p1{
+    font-size: 1.5rem;
+}
+
+
+.joc-con{
+    margin:10px;
+    padding:10px;
+    
+    }
+    
+ .change{
+    
+     width:50%;
+     height: 50vh;
+ font-size: 1.5rem;
+ 
+
+ 
+ }
+ .p2{
+    font-size: 0.5rem;
+    margin:0px;
+    padding:5px;
+}
+.p3{
+    
+    font-size:10px;
+    font-weight: lighter;
+ }
+ .bold{
+    font-size: 15px;
+    font-weight: lighter;
+    opacity: 1;
+    margin:5px 5px;
+    padding:10px;
+}
+.button{
+    font-size: 20px;
+    width:59vw;
+    height: 50vh;
+}
+.box{
+   
+    width: 100vw;
+    /* height:50vh; */
+    font-size: 1.5rem;
+}
+.tut{
+    font-size: 2rem;
+}
+}
+@media screen and (min-width:1024px){
+.h1{
+   
+    margin:5px;
+    padding:10px;
+}
+.p1{
+    font-size: 1rem;
+    margin:0px;
+  padding:10px;
+}
+.p2{
+    font-size: 1rem;
+    margin:5px;
+    padding:5px;
+}
+.change{
+    width:35vw;
+    height:45vh;
+    margin: 10px;
+    padding: 20px;
+float:left;
+}
+.button{
+    width:60%;
+    height:20%;
+    position: relative;
+    top:-10px;
+    left: 30px;
+}
+.p3{
+    font-size: 20px;
+    margin:10px;
+    padding:10px;
+}
+  .two{
+      margin:10px 0px 0px 20px;
+      padding:5px;
+  }  
+  .span{
+      opacity: 0.5;
+    
+  }
+  .bold{
+      font-size: 20px;
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .box{
+      width:35vw;
+      height:45vh;
+      float:left;
+      position:absolute;
+      top:203px;
+      left:350px;
+}
+  .h2{
+      font-size: 30px;
+  }
+  .tut{
+      opacity: 0.5;
+      font-size: 20px;
+  }
+}
